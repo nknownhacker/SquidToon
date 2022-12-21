@@ -1,0 +1,30 @@
+// Game: SquidToon
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+"_tb_textures" "textures"
+// brush 0
+{
+( -64 -80 16 ) ( -64 64 -16 ) ( -64 64 16 ) aerial_grass_rock_rough_1k 0 0 0 1 1
+( 64 -80 16 ) ( -64 -80 -16 ) ( -64 -80 16 ) aerial_grass_rock_rough_1k 0 0 0 1 1
+( 64 64 -16 ) ( -64 -80 -16 ) ( 64 -80 -16 ) aerial_grass_rock_rough_1k 0 0 0 1 1
+( 64 64 16 ) ( -64 -80 16 ) ( -64 64 16 ) aerial_grass_rock_rough_1k 0 0 0 1 1
+( 64 64 16 ) ( -64 64 -16 ) ( 64 64 -16 ) aerial_grass_rock_rough_1k 0 0 0 1 1
+( 64 64 16 ) ( 64 -80 -16 ) ( 64 -80 16 ) aerial_grass_rock_rough_1k 0 0 0 1 1
+}
+// brush 1
+{
+( -160 -96 0 ) ( -160 -95 0 ) ( -160 -96 1 ) aerial_grass_rock_rough_1k 0 0 0 1 1
+( -160 -96 0 ) ( -160 -96 1 ) ( -159 -96 0 ) aerial_grass_rock_rough_1k 0 0 0 1 1
+( -160 -96 0 ) ( -159 -96 0 ) ( -160 -95 0 ) aerial_grass_rock_rough_1k 0 0 0 1 1
+( -64 64 16 ) ( -64 65 16 ) ( -63 64 16 ) aerial_grass_rock_rough_1k 0 0 0 1 1
+( -64 64 16 ) ( -63 64 16 ) ( -64 64 17 ) aerial_grass_rock_rough_1k 0 0 0 1 1
+( -64 64 16 ) ( -64 64 17 ) ( -64 65 16 ) aerial_grass_rock_rough_1k 0 0 0 1 1
+}
+}
+// entity 1
+{
+"classname" "light"
+"origin" "-8 -8 88"
+}

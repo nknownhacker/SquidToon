@@ -1,0 +1,43 @@
+// Game: SquidToon
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+"_tb_textures" "textures"
+// brush 0
+{
+( -64 -80 16 ) ( -64 64 -16 ) ( -64 64 16 ) aerial_grass_rock_rough_1k 0 0 0 1 1
+( 64 -80 16 ) ( -64 -80 -16 ) ( -64 -80 16 ) aerial_grass_rock_rough_1k 0 0 0 1 1
+( 64 64 -16 ) ( -64 -80 -16 ) ( 64 -80 -16 ) aerial_grass_rock_rough_1k 0 0 0 1 1
+( 64 64 16 ) ( -64 -80 16 ) ( -64 64 16 ) aerial_grass_rock_rough_1k 0 0 0 1 1
+( 64 64 16 ) ( -64 64 -16 ) ( 64 64 -16 ) aerial_grass_rock_rough_1k 0 0 0 1 1
+( 64 64 16 ) ( 64 -80 -16 ) ( 64 -80 16 ) aerial_grass_rock_rough_1k 0 0 0 1 1
+}
+// brush 1
+{
+( -160 -96 0 ) ( -160 -95 0 ) ( -160 -96 1 ) aerial_grass_rock_rough_1k 0 0 0 1 1
+( -160 -96 0 ) ( -160 -96 1 ) ( -159 -96 0 ) aerial_grass_rock_rough_1k 0 0 0 1 1
+( -160 -96 0 ) ( -159 -96 0 ) ( -160 -95 0 ) aerial_grass_rock_rough_1k 0 0 0 1 1
+( -64 64 16 ) ( -64 65 16 ) ( -63 64 16 ) aerial_grass_rock_rough_1k 0 0 0 1 1
+( -64 64 16 ) ( -63 64 16 ) ( -64 64 17 ) aerial_grass_rock_rough_1k 0 0 0 1 1
+( -64 64 16 ) ( -64 64 17 ) ( -64 65 16 ) aerial_grass_rock_rough_1k 0 0 0 1 1
+}
+// brush 2
+{
+( 64 -96 0 ) ( 64 -95 0 ) ( 64 -96 1 ) aerial_grass_rock_rough_1k 0 0 0 1 1
+( 64 -96 0 ) ( 64 -96 1 ) ( 65 -96 0 ) aerial_grass_rock_rough_1k 0 0 0 1 1
+( 64 -96 0 ) ( 65 -96 0 ) ( 64 -95 0 ) aerial_grass_rock_rough_1k 0 0 0 1 1
+( 160 64 16 ) ( 160 65 16 ) ( 161 64 16 ) aerial_grass_rock_rough_1k 0 0 0 1 1
+( 160 64 16 ) ( 161 64 16 ) ( 160 64 17 ) aerial_grass_rock_rough_1k 0 0 0 1 1
+( 160 64 16 ) ( 160 64 17 ) ( 160 65 16 ) aerial_grass_rock_rough_1k 0 0 0 1 1
+}
+// brush 3
+{
+( -64 -272 0 ) ( -64 -271 0 ) ( -64 -272 1 ) aerial_grass_rock_rough_1k 0 0 0 1 1
+( -64 -272 0 ) ( -64 -272 1 ) ( -63 -272 0 ) aerial_grass_rock_rough_1k 0 0 0 1 1
+( -64 -272 0 ) ( -63 -272 0 ) ( -64 -271 0 ) aerial_grass_rock_rough_1k 0 0 0 1 1
+( 64 -80 16 ) ( 64 -79 16 ) ( 65 -80 16 ) aerial_grass_rock_rough_1k 0 0 0 1 1
+( 64 -80 16 ) ( 65 -80 16 ) ( 64 -80 17 ) aerial_grass_rock_rough_1k 0 0 0 1 1
+( 64 -80 16 ) ( 64 -80 17 ) ( 64 -79 16 ) aerial_grass_rock_rough_1k 0 0 0 1 1
+}
+}

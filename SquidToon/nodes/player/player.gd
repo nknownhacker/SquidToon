@@ -2,7 +2,7 @@ extends KinematicBody
 
 export(float) var move_speed: float = 10
 export(float) var turn_speed: float = 5
-export(float) var jump_force: float = .01
+export(float) var jump_force: float = 15
 export(float) var acceleration: float = 10
 export(float) var gravity: float = .90
 export(float) var max_terminal_velocity: float = 20
@@ -21,6 +21,9 @@ var _move_rot: float = 0
 var _velocity: Vector3 = Vector3.ZERO
 var _y_velocity: float = 0
 var _rotation: float = 0
+
+var bool_check_t: int = 0
+var is_on_floor_really : bool = false
 
 func _process(delta):
 	var dx := Input.get_action_strength("right") - Input.get_action_strength("left")
@@ -47,9 +50,17 @@ func _physics_process(delta):
 		_is_jumping = false
 		_y_velocity = jump_force
 	
+	# player bhopping makes it twitch on changes, so I have this as a stopper of twitches from that result
+	if is_on_floor() and bool_check_t < 2:
+		bool_check_t += 1
+	elif is_on_floor() and bool_check_t >= 2:
+		is_on_floor_really = true
+	else:
+		bool_check_t = 0
+		is_on_floor_really = false
 	
-	if Input.is_action_pressed("aim"):
-		_rotation = lerp_angle(_rotation, deg2rad(gimbah.rotation_degrees.y), turn_speed * delta)
+	if Input.is_action_pressed("aim") and is_on_floor_really:
+		_rotation = lerp_angle(_rotation, deg2rad(gimbah.rotation_degrees.y), turn_speed * 3 * delta)
 		_skin.rotation.y = _rotation
 	elif _move_dir != Vector2.ZERO:
 		_rotation = lerp_angle(_rotation, atan2(-direction.x,-direction.z), turn_speed * delta)
