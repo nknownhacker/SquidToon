@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/ikazuti.ogg-5ac90092051f98bb3d1c434473e87ee5.oggstr"
+
+[deps]
+
+source_file="res://assets/sound_effect/ikazuti.ogg"
+dest_files=[ "res://.import/ikazuti.ogg-5ac90092051f98bb3d1c434473e87ee5.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

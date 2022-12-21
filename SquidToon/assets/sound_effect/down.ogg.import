@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/down.ogg-f9e7353a3ef68f3d100211ca02d6a499.oggstr"
+
+[deps]
+
+source_file="res://assets/sound_effect/down.ogg"
+dest_files=[ "res://.import/down.ogg-f9e7353a3ef68f3d100211ca02d6a499.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

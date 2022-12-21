@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/door2.ogg-a5a83cb3f98a98adb039a3043d1e8cfe.oggstr"
+
+[deps]
+
+source_file="res://assets/sound_effect/door2.ogg"
+dest_files=[ "res://.import/door2.ogg-a5a83cb3f98a98adb039a3043d1e8cfe.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

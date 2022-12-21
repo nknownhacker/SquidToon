@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Exiter.mp3-6f1b8a16688e62596297c09afae14c70.mp3str"
+
+[deps]
+
+source_file="res://assets/sound_effect/Exiter.mp3"
+dest_files=[ "res://.import/Exiter.mp3-6f1b8a16688e62596297c09afae14c70.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/yami.ogg-ff58e340b45d6e93e68ed3051a498a13.oggstr"
+
+[deps]
+
+source_file="res://assets/sound_effect/yami.ogg"
+dest_files=[ "res://.import/yami.ogg-ff58e340b45d6e93e68ed3051a498a13.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

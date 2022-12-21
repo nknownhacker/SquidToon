@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/dageki2.ogg-eed35254ad48f9ab26b3b7921246c12a.oggstr"
+
+[deps]
+
+source_file="res://assets/sound_effect/dageki2.ogg"
+dest_files=[ "res://.import/dageki2.ogg-eed35254ad48f9ab26b3b7921246c12a.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/spank.ogg-8c5c72e9ec1263e1244e8d01e688ea1c.oggstr"
+
+[deps]
+
+source_file="res://assets/sound_effect/spank.ogg"
+dest_files=[ "res://.import/spank.ogg-8c5c72e9ec1263e1244e8d01e688ea1c.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

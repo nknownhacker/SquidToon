@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/spark.ogg-a40e975954a5c876ec363c53b8ed3c87.oggstr"
+
+[deps]
+
+source_file="res://assets/sound_effect/spark.ogg"
+dest_files=[ "res://.import/spark.ogg-a40e975954a5c876ec363c53b8ed3c87.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

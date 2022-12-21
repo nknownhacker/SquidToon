@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/light.ogg-1888d940de3ef76e0cf924d25e2c82aa.oggstr"
+
+[deps]
+
+source_file="res://assets/sound_effect/light.ogg"
+dest_files=[ "res://.import/light.ogg-1888d940de3ef76e0cf924d25e2c82aa.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

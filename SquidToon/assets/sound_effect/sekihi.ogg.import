@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/sekihi.ogg-156f5be5d3286d2408d98627d91e0320.oggstr"
+
+[deps]
+
+source_file="res://assets/sound_effect/sekihi.ogg"
+dest_files=[ "res://.import/sekihi.ogg-156f5be5d3286d2408d98627d91e0320.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

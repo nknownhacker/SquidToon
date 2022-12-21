@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/tuki.ogg-9ac24a582d7cb3d7b95bc40abe4fa069.oggstr"
+
+[deps]
+
+source_file="res://assets/sound_effect/tuki.ogg"
+dest_files=[ "res://.import/tuki.ogg-9ac24a582d7cb3d7b95bc40abe4fa069.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

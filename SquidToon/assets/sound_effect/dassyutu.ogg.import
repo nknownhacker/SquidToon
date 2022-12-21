@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/dassyutu.ogg-c2be5efbc5218e15a6592a5a11f3a4a1.oggstr"
+
+[deps]
+
+source_file="res://assets/sound_effect/dassyutu.ogg"
+dest_files=[ "res://.import/dassyutu.ogg-c2be5efbc5218e15a6592a5a11f3a4a1.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

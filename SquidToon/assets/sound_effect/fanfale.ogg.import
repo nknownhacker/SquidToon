@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/fanfale.ogg-fc00b578bd310c589fe32544403e6dfa.oggstr"
+
+[deps]
+
+source_file="res://assets/sound_effect/fanfale.ogg"
+dest_files=[ "res://.import/fanfale.ogg-fc00b578bd310c589fe32544403e6dfa.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

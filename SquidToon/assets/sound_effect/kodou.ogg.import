@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/kodou.ogg-d87eb9b59dd66a75eae0b6b4e5bdfddd.oggstr"
+
+[deps]
+
+source_file="res://assets/sound_effect/kodou.ogg"
+dest_files=[ "res://.import/kodou.ogg-d87eb9b59dd66a75eae0b6b4e5bdfddd.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

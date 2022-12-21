@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/kaimono.ogg-4e086ff97bdbaacc65336aed82e240ce.oggstr"
+
+[deps]
+
+source_file="res://assets/sound_effect/kaimono.ogg"
+dest_files=[ "res://.import/kaimono.ogg-4e086ff97bdbaacc65336aed82e240ce.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/bakuzyu.ogg-7568060b33a79ba176cd5973ae3e132d.oggstr"
+
+[deps]
+
+source_file="res://assets/sound_effect/bakuzyu.ogg"
+dest_files=[ "res://.import/bakuzyu.ogg-7568060b33a79ba176cd5973ae3e132d.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

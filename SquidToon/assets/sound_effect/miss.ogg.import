@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/miss.ogg-eb0ea554d6adf2218553f94d4200d914.oggstr"
+
+[deps]
+
+source_file="res://assets/sound_effect/miss.ogg"
+dest_files=[ "res://.import/miss.ogg-eb0ea554d6adf2218553f94d4200d914.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

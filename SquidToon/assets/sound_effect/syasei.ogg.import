@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/syasei.ogg-477a5b7953b8672f8bf38fc1bfe5c837.oggstr"
+
+[deps]
+
+source_file="res://assets/sound_effect/syasei.ogg"
+dest_files=[ "res://.import/syasei.ogg-477a5b7953b8672f8bf38fc1bfe5c837.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

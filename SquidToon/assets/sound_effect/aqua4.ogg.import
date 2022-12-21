@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/aqua4.ogg-708174e1d386162c21b4088a29a72bc6.oggstr"
+
+[deps]
+
+source_file="res://assets/sound_effect/aqua4.ogg"
+dest_files=[ "res://.import/aqua4.ogg-708174e1d386162c21b4088a29a72bc6.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

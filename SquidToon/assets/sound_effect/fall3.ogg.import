@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/fall3.ogg-f6d4bb1f2f065f6adb7f0a727ac87089.oggstr"
+
+[deps]
+
+source_file="res://assets/sound_effect/fall3.ogg"
+dest_files=[ "res://.import/fall3.ogg-f6d4bb1f2f065f6adb7f0a727ac87089.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

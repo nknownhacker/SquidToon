@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/flash.ogg-5778f1173890a6334f801ddd6bb09aa1.oggstr"
+
+[deps]
+
+source_file="res://assets/sound_effect/flash.ogg"
+dest_files=[ "res://.import/flash.ogg-5778f1173890a6334f801ddd6bb09aa1.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/asioto3.ogg-d3d4f96daa5de11f72eed8beda99147d.oggstr"
+
+[deps]
+
+source_file="res://assets/sound_effect/asioto3.ogg"
+dest_files=[ "res://.import/asioto3.ogg-d3d4f96daa5de11f72eed8beda99147d.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

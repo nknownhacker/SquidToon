@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/kazi.ogg-cfe274f2acbecb82446ec62101f3ce92.oggstr"
+
+[deps]
+
+source_file="res://assets/sound_effect/kazi.ogg"
+dest_files=[ "res://.import/kazi.ogg-cfe274f2acbecb82446ec62101f3ce92.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/denpa1.ogg-6c81cf4e3e76fa194c35909ddf49466f.oggstr"
+
+[deps]
+
+source_file="res://assets/sound_effect/denpa1.ogg"
+dest_files=[ "res://.import/denpa1.ogg-6c81cf4e3e76fa194c35909ddf49466f.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

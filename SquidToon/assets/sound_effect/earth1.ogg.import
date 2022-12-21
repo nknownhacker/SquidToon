@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/earth1.ogg-5723198f044d8d892d46e902d8312e8a.oggstr"
+
+[deps]
+
+source_file="res://assets/sound_effect/earth1.ogg"
+dest_files=[ "res://.import/earth1.ogg-5723198f044d8d892d46e902d8312e8a.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/lvup.ogg-0b0d56059def1ea7b04293f158cc69aa.oggstr"
+
+[deps]
+
+source_file="res://assets/sound_effect/lvup.ogg"
+dest_files=[ "res://.import/lvup.ogg-0b0d56059def1ea7b04293f158cc69aa.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
