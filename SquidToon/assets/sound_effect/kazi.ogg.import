@@ -1,15 +1,19 @@
 [remap]
 
-importer="ogg_vorbis"
-type="AudioStreamOGGVorbis"
-path="res://.import/kazi.ogg-cfe274f2acbecb82446ec62101f3ce92.oggstr"
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bpimk0pkadt4n"
+path="res://.godot/imported/kazi.ogg-cfe274f2acbecb82446ec62101f3ce92.oggvorbisstr"
 
 [deps]
 
 source_file="res://assets/sound_effect/kazi.ogg"
-dest_files=[ "res://.import/kazi.ogg-cfe274f2acbecb82446ec62101f3ce92.oggstr" ]
+dest_files=["res://.godot/imported/kazi.ogg-cfe274f2acbecb82446ec62101f3ce92.oggvorbisstr"]
 
 [params]
 
 loop=true
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

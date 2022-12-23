@@ -1,0 +1,11 @@
+res://scenes/intro.tscn
+res://scripts/SetUvPositionMesh.gd
+res://textures/realwater.tres
+res://nodes/player/player.tscn
+res://nodes/splattershot_projectile.tscn
+res://nodes/player/controllable camera.tscn
+res://assets/models/splattershot.tscn
+res://scripts/is_weapon.gd
+res://nodes/player/player.gd
+res://scripts/Brush.gd
+res://scripts/Score.gd

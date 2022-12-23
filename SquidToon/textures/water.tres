@@ -10,8 +10,8 @@ uniform float speed : hint_range(-1,1) = 0.0;
 uniform sampler2D noise1; //add Godot noise here
 uniform sampler2D noise2; //add Godot noise here
 uniform sampler2D normalmap : hint_normal; //add Godot noise here, enable as_normalmap
-uniform vec4 color : hint_color;
-uniform vec4 edge_color : hint_color;
+uniform vec4 color : source_color;
+uniform vec4 edge_color : source_color;
 
 //foam
 uniform float edge_scale = 0.25;
@@ -73,7 +73,7 @@ void fragment(){
 	
 	ALBEDO = vec3(fin) + mix(alpha.rgb, col.rgb, color.a);
 	
-	NORMALMAP = texture(normalmap, uv_movement).rgb;
+	NORMAL_MAP = texture(normalmap, uv_movement).rgb;
 	ROUGHNESS = 0.1;
 	SPECULAR = 1.0;
 }"

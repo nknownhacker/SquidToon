@@ -1,15 +1,19 @@
 [remap]
 
-importer="ogg_vorbis"
-type="AudioStreamOGGVorbis"
-path="res://.import/tume.ogg-0ed72560f2c1593a7dd17c409ef20841.oggstr"
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bh86u0aywd2ue"
+path="res://.godot/imported/tume.ogg-0ed72560f2c1593a7dd17c409ef20841.oggvorbisstr"
 
 [deps]
 
 source_file="res://assets/sound_effect/tume.ogg"
-dest_files=[ "res://.import/tume.ogg-0ed72560f2c1593a7dd17c409ef20841.oggstr" ]
+dest_files=["res://.godot/imported/tume.ogg-0ed72560f2c1593a7dd17c409ef20841.oggvorbisstr"]
 
 [params]
 
 loop=true
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

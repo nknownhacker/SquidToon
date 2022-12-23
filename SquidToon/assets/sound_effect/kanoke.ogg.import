@@ -1,15 +1,19 @@
 [remap]
 
-importer="ogg_vorbis"
-type="AudioStreamOGGVorbis"
-path="res://.import/kanoke.ogg-b59e59f3bef214c6b447503e2f383f9d.oggstr"
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cr7f68cfdc6ol"
+path="res://.godot/imported/kanoke.ogg-b59e59f3bef214c6b447503e2f383f9d.oggvorbisstr"
 
 [deps]
 
 source_file="res://assets/sound_effect/kanoke.ogg"
-dest_files=[ "res://.import/kanoke.ogg-b59e59f3bef214c6b447503e2f383f9d.oggstr" ]
+dest_files=["res://.godot/imported/kanoke.ogg-b59e59f3bef214c6b447503e2f383f9d.oggvorbisstr"]
 
 [params]
 
 loop=true
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

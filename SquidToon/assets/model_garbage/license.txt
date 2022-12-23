@@ -1,0 +1,11 @@
+Model Information:
+* title:	Splattershot - Splatoon
+* source:	https://sketchfab.com/3d-models/splattershot-splatoon-76590c977b254a738590c67f9b9af85c
+* author:	DarkTenshiDT (https://sketchfab.com/DarkTenshiDT)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Splattershot - Splatoon" (https://sketchfab.com/3d-models/splattershot-splatoon-76590c977b254a738590c67f9b9af85c) by DarkTenshiDT (https://sketchfab.com/DarkTenshiDT) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

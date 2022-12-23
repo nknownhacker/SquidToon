@@ -1,15 +1,19 @@
 [remap]
 
-importer="ogg_vorbis"
-type="AudioStreamOGGVorbis"
-path="res://.import/yami2.ogg-219d36ef0d60262fd5576dca66c17af4.oggstr"
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://sffyh2uk14x1"
+path="res://.godot/imported/yami2.ogg-219d36ef0d60262fd5576dca66c17af4.oggvorbisstr"
 
 [deps]
 
 source_file="res://assets/sound_effect/yami2.ogg"
-dest_files=[ "res://.import/yami2.ogg-219d36ef0d60262fd5576dca66c17af4.oggstr" ]
+dest_files=["res://.godot/imported/yami2.ogg-219d36ef0d60262fd5576dca66c17af4.oggvorbisstr"]
 
 [params]
 
 loop=true
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

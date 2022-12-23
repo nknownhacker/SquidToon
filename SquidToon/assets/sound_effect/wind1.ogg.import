@@ -1,15 +1,19 @@
 [remap]
 
-importer="ogg_vorbis"
-type="AudioStreamOGGVorbis"
-path="res://.import/wind1.ogg-0ccf959f56accf67fcbcd8967928694d.oggstr"
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bcqng37rrj6m4"
+path="res://.godot/imported/wind1.ogg-0ccf959f56accf67fcbcd8967928694d.oggvorbisstr"
 
 [deps]
 
 source_file="res://assets/sound_effect/wind1.ogg"
-dest_files=[ "res://.import/wind1.ogg-0ccf959f56accf67fcbcd8967928694d.oggstr" ]
+dest_files=["res://.godot/imported/wind1.ogg-0ccf959f56accf67fcbcd8967928694d.oggvorbisstr"]
 
 [params]
 
 loop=true
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

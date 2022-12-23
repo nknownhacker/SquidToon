@@ -1,15 +1,19 @@
 [remap]
 
-importer="ogg_vorbis"
-type="AudioStreamOGGVorbis"
-path="res://.import/aqua2.ogg-a829c43384a1b89a2484c3d6f83f754b.oggstr"
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bjtwiwo5lmlla"
+path="res://.godot/imported/aqua2.ogg-a829c43384a1b89a2484c3d6f83f754b.oggvorbisstr"
 
 [deps]
 
 source_file="res://assets/sound_effect/aqua2.ogg"
-dest_files=[ "res://.import/aqua2.ogg-a829c43384a1b89a2484c3d6f83f754b.oggstr" ]
+dest_files=["res://.godot/imported/aqua2.ogg-a829c43384a1b89a2484c3d6f83f754b.oggvorbisstr"]
 
 [params]
 
 loop=true
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

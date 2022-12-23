@@ -1,0 +1,14 @@
+[gd_resource type="ShaderMaterial" load_steps=4 format=3 uid="uid://1dhc7m5b2wsa"]
+
+[ext_resource type="Shader" uid="uid://bsooh30onn3xx" path="res://textures/intro.tres" id="1_33q8r"]
+[ext_resource type="Texture2D" uid="uid://da82swib8whsm" path="res://assets/model_garbage/icon_png.png" id="2_vqsdu"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_u52e1"]
+viewport_path = NodePath("DrawViewport")
+
+[resource]
+resource_local_to_scene = true
+render_priority = 0
+shader = ExtResource("1_33q8r")
+shader_parameter/orig = ExtResource("2_vqsdu")
+shader_parameter/view = SubResource("ViewportTexture_u52e1")

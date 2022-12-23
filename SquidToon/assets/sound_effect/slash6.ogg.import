@@ -1,15 +1,19 @@
 [remap]
 
-importer="ogg_vorbis"
-type="AudioStreamOGGVorbis"
-path="res://.import/slash6.ogg-25d95d39fabe9cf92ed925e961e5c8bd.oggstr"
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://mi2vgo60qwpk"
+path="res://.godot/imported/slash6.ogg-25d95d39fabe9cf92ed925e961e5c8bd.oggvorbisstr"
 
 [deps]
 
 source_file="res://assets/sound_effect/slash6.ogg"
-dest_files=[ "res://.import/slash6.ogg-25d95d39fabe9cf92ed925e961e5c8bd.oggstr" ]
+dest_files=["res://.godot/imported/slash6.ogg-25d95d39fabe9cf92ed925e961e5c8bd.oggvorbisstr"]
 
 [params]
 
 loop=true
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

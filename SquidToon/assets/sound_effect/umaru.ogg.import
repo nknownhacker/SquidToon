@@ -1,15 +1,19 @@
 [remap]
 
-importer="ogg_vorbis"
-type="AudioStreamOGGVorbis"
-path="res://.import/umaru.ogg-5cac74b4eb514058ea9acc191c33ae51.oggstr"
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://8fglubl4dc83"
+path="res://.godot/imported/umaru.ogg-5cac74b4eb514058ea9acc191c33ae51.oggvorbisstr"
 
 [deps]
 
 source_file="res://assets/sound_effect/umaru.ogg"
-dest_files=[ "res://.import/umaru.ogg-5cac74b4eb514058ea9acc191c33ae51.oggstr" ]
+dest_files=["res://.godot/imported/umaru.ogg-5cac74b4eb514058ea9acc191c33ae51.oggvorbisstr"]
 
 [params]
 
 loop=true
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

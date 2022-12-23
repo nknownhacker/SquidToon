@@ -1,15 +1,19 @@
 [remap]
 
-importer="ogg_vorbis"
-type="AudioStreamOGGVorbis"
-path="res://.import/syometu2.ogg-0a7848de1e1038f5555e882e3937af90.oggstr"
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://br1mkxhvdi4w8"
+path="res://.godot/imported/syometu2.ogg-0a7848de1e1038f5555e882e3937af90.oggvorbisstr"
 
 [deps]
 
 source_file="res://assets/sound_effect/syometu2.ogg"
-dest_files=[ "res://.import/syometu2.ogg-0a7848de1e1038f5555e882e3937af90.oggstr" ]
+dest_files=["res://.godot/imported/syometu2.ogg-0a7848de1e1038f5555e882e3937af90.oggvorbisstr"]
 
 [params]
 
 loop=true
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

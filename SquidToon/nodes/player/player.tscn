@@ -1,44 +1,80 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=9 format=3 uid="uid://d04d45vkhjn2b"]
 
-[ext_resource path="res://nodes/player/player.gd" type="Script" id=1]
-[ext_resource path="res://nodes/player/controllable camera.tscn" type="PackedScene" id=2]
+[ext_resource type="Script" path="res://nodes/player/player.gd" id="1"]
+[ext_resource type="PackedScene" uid="uid://umhbn6ky1qk" path="res://nodes/player/controllable camera.tscn" id="2"]
+[ext_resource type="Script" path="res://scripts/is_weapon.gd" id="3"]
 
-[sub_resource type="CapsuleMesh" id=1]
+[sub_resource type="CapsuleMesh" id="1"]
 radius = 0.6
-mid_height = 1.5
+height = 3.0
 
-[sub_resource type="CylinderMesh" id=2]
+[sub_resource type="CylinderMesh" id="2"]
 top_radius = 0.392
 bottom_radius = 0.0
 height = 1.115
 
-[sub_resource type="CapsuleShape" id=3]
+[sub_resource type="Animation" id="4"]
+resource_name = "automatic_long"
+length = 0.5
+tracks/0/type = "bezier"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:rotation_degrees:y")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"handle_modes": PackedInt32Array(),
+"points": PackedFloat32Array(),
+"times": PackedFloat32Array()
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_wqonf"]
+_data = {
+"automatic_long": SubResource("4")
+}
+
+[sub_resource type="CapsuleShape3D" id="3"]
 radius = 0.6
-height = 1.5
+height = 3.18982
 
-[node name="player" type="KinematicBody"]
-script = ExtResource( 1 )
+[node name="player" type="CharacterBody3D" groups=["humanoid", "players"]]
+script = ExtResource("1")
 
-[node name="skin" type="Spatial" parent="."]
+[node name="skin" type="Node3D" parent="."]
 
-[node name="MeshInstance" type="MeshInstance" parent="skin"]
-transform = Transform( 1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 1, 0 )
-mesh = SubResource( 1 )
+[node name="Main" type="MeshInstance3D" parent="skin"]
+transform = Transform3D(1, 0, 0, 0, 1, -1.06581e-14, 0, 1.06581e-14, 1, 0, 1, 0)
+mesh = SubResource("1")
 
-[node name="MeshInstance2" type="MeshInstance" parent="skin"]
-transform = Transform( 1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0.00496501, 1.62069, -1.16542 )
-mesh = SubResource( 2 )
+[node name="Point" type="MeshInstance3D" parent="skin"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0.00496501, 1.62069, -1.16542)
+mesh = SubResource("2")
 
-[node name="CollisionShape" type="CollisionShape" parent="."]
-transform = Transform( 1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 1, 0 )
-shape = SubResource( 3 )
+[node name="hold" type="Node3D" parent="skin"]
+transform = Transform3D(0.991965, 0, 0.126511, 0, 1, 0, -0.126511, 0, 0.991965, 0.626478, 0.78288, -0.407282)
 
-[node name="camroot" type="Spatial" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3, 0 )
+[node name="weapon" type="Node3D" parent="skin/hold"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.165626, 1, -0.430251)
+script = ExtResource("3")
 
-[node name="control_camera" parent="camroot" instance=ExtResource( 2 )]
+[node name="CSGBox3D" type="CSGBox3D" parent="skin/hold"]
+visible = false
 
-[node name="ClippedCamera" parent="camroot/control_camera/GimbaH/GimbaV" index="0"]
+[node name="weapon_anim" type="AnimationPlayer" parent="skin/hold"]
+libraries = {
+"": SubResource("AnimationLibrary_wqonf")
+}
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -1, 8.74228e-08, 0, -8.74228e-08, -1, 0, 1, 0)
+shape = SubResource("3")
+
+[node name="camroot" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3, 0)
+
+[node name="control_camera" parent="camroot" instance=ExtResource("2")]
+
+[node name="Camera3D" parent="camroot/control_camera/GimbaH/GimbaV" index="0"]
 far = 1500.0
 
 [editable path="camroot/control_camera"]

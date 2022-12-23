@@ -1,15 +1,19 @@
 [remap]
 
-importer="ogg_vorbis"
-type="AudioStreamOGGVorbis"
-path="res://.import/break.ogg-ad62e20a0e39056e36477963f0d667ca.oggstr"
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://ube3rr2x1j50"
+path="res://.godot/imported/break.ogg-ad62e20a0e39056e36477963f0d667ca.oggvorbisstr"
 
 [deps]
 
 source_file="res://assets/sound_effect/break.ogg"
-dest_files=[ "res://.import/break.ogg-ad62e20a0e39056e36477963f0d667ca.oggstr" ]
+dest_files=["res://.godot/imported/break.ogg-ad62e20a0e39056e36477963f0d667ca.oggvorbisstr"]
 
 [params]
 
 loop=true
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

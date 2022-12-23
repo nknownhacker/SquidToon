@@ -1,15 +1,19 @@
 [remap]
 
-importer="ogg_vorbis"
-type="AudioStreamOGGVorbis"
-path="res://.import/tamamo2.ogg-f751eb9e4d52da24452e377f564783f7.oggstr"
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://d1xdcvyykepfg"
+path="res://.godot/imported/tamamo2.ogg-f751eb9e4d52da24452e377f564783f7.oggvorbisstr"
 
 [deps]
 
 source_file="res://assets/sound_effect/tamamo2.ogg"
-dest_files=[ "res://.import/tamamo2.ogg-f751eb9e4d52da24452e377f564783f7.oggstr" ]
+dest_files=["res://.godot/imported/tamamo2.ogg-f751eb9e4d52da24452e377f564783f7.oggvorbisstr"]
 
 [params]
 
 loop=true
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

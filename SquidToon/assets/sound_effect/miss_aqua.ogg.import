@@ -1,15 +1,19 @@
 [remap]
 
-importer="ogg_vorbis"
-type="AudioStreamOGGVorbis"
-path="res://.import/miss_aqua.ogg-ede190f42e7cb6ea73266723ffca470c.oggstr"
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bbrgq0gg0v3s2"
+path="res://.godot/imported/miss_aqua.ogg-ede190f42e7cb6ea73266723ffca470c.oggvorbisstr"
 
 [deps]
 
 source_file="res://assets/sound_effect/miss_aqua.ogg"
-dest_files=[ "res://.import/miss_aqua.ogg-ede190f42e7cb6ea73266723ffca470c.oggstr" ]
+dest_files=["res://.godot/imported/miss_aqua.ogg-ede190f42e7cb6ea73266723ffca470c.oggvorbisstr"]
 
 [params]
 
 loop=true
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

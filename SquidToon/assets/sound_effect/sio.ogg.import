@@ -1,15 +1,19 @@
 [remap]
 
-importer="ogg_vorbis"
-type="AudioStreamOGGVorbis"
-path="res://.import/sio.ogg-62ec078049169714bce472e848c7795d.oggstr"
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://6y776tnvew8p"
+path="res://.godot/imported/sio.ogg-62ec078049169714bce472e848c7795d.oggvorbisstr"
 
 [deps]
 
 source_file="res://assets/sound_effect/sio.ogg"
-dest_files=[ "res://.import/sio.ogg-62ec078049169714bce472e848c7795d.oggstr" ]
+dest_files=["res://.godot/imported/sio.ogg-62ec078049169714bce472e848c7795d.oggvorbisstr"]
 
 [params]
 
 loop=true
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

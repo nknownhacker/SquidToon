@@ -1,0 +1,72 @@
+[gd_resource type="VisualShader" load_steps=7 format=3 uid="uid://b1njtyvi0pjin"]
+
+[sub_resource type="VisualShaderNodeMix" id="VisualShaderNodeMix_51rib"]
+default_input_values = [0, Vector3(0, 0, 0), 1, Vector3(1, 1, 1), 2, Vector3(0.5, 0.5, 0.5)]
+op_type = 3
+
+[sub_resource type="VisualShaderNodeTexture" id="33"]
+output_port_for_preview = 4
+expanded_output_ports = [0]
+source = 5
+
+[sub_resource type="VisualShaderNodeTexture" id="34"]
+source = 5
+
+[sub_resource type="VisualShaderNodeInput" id="35"]
+input_name = "uv"
+
+[sub_resource type="VisualShaderNodeTexture2DParameter" id="36"]
+parameter_name = "LevelOriginal"
+
+[sub_resource type="VisualShaderNodeTexture2DParameter" id="37"]
+parameter_name = "Paint"
+
+[resource]
+resource_local_to_scene = true
+code = "shader_type spatial;
+uniform sampler2D LevelOriginal;
+uniform sampler2D Paint;
+
+
+
+void fragment() {
+// Input:4
+	vec2 n_out4p0 = UV;
+
+
+	vec4 n_out3p0;
+// Texture2D:3
+	n_out3p0 = texture(LevelOriginal, n_out4p0);
+
+
+	vec4 n_out2p0;
+// Texture2D:2
+	n_out2p0 = texture(Paint, n_out4p0);
+	float n_out2p4 = n_out2p0.a;
+
+
+// Mix:10
+	vec3 n_out10p0 = mix(vec3(n_out3p0.xyz), vec3(n_out2p0.xyz), vec3(n_out2p4));
+
+
+// Output:0
+	ALBEDO = n_out10p0;
+
+
+}
+"
+graph_offset = Vector2(-276.134, -18.1984)
+nodes/fragment/0/position = Vector2(520, 160)
+nodes/fragment/2/node = SubResource("33")
+nodes/fragment/2/position = Vector2(0, 400)
+nodes/fragment/3/node = SubResource("34")
+nodes/fragment/3/position = Vector2(0, 140)
+nodes/fragment/4/node = SubResource("35")
+nodes/fragment/4/position = Vector2(-360, 300)
+nodes/fragment/6/node = SubResource("36")
+nodes/fragment/6/position = Vector2(-360, 0)
+nodes/fragment/7/node = SubResource("37")
+nodes/fragment/7/position = Vector2(-360, 420)
+nodes/fragment/10/node = SubResource("VisualShaderNodeMix_51rib")
+nodes/fragment/10/position = Vector2(260, 260)
+nodes/fragment/connections = PackedInt32Array(6, 0, 3, 2, 7, 0, 2, 2, 4, 0, 2, 0, 4, 0, 3, 0, 3, 0, 10, 0, 2, 0, 10, 1, 2, 4, 10, 2, 10, 0, 0, 0)

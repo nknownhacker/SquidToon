@@ -1,15 +1,19 @@
 [remap]
 
-importer="ogg_vorbis"
-type="AudioStreamOGGVorbis"
-path="res://.import/dageki.ogg-f926ca2cd7ab3f2dcccd6cbd90293254.oggstr"
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://d1tsfpf1d0nl7"
+path="res://.godot/imported/dageki.ogg-f926ca2cd7ab3f2dcccd6cbd90293254.oggvorbisstr"
 
 [deps]
 
 source_file="res://assets/sound_effect/dageki.ogg"
-dest_files=[ "res://.import/dageki.ogg-f926ca2cd7ab3f2dcccd6cbd90293254.oggstr" ]
+dest_files=["res://.godot/imported/dageki.ogg-f926ca2cd7ab3f2dcccd6cbd90293254.oggvorbisstr"]
 
 [params]
 
 loop=true
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,15 +1,19 @@
 [remap]
 
-importer="ogg_vorbis"
-type="AudioStreamOGGVorbis"
-path="res://.import/step.ogg-648e184d6ad4246d1b122d644ed39a8c.oggstr"
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bux5olivxb2hm"
+path="res://.godot/imported/step.ogg-648e184d6ad4246d1b122d644ed39a8c.oggvorbisstr"
 
 [deps]
 
 source_file="res://assets/sound_effect/step.ogg"
-dest_files=[ "res://.import/step.ogg-648e184d6ad4246d1b122d644ed39a8c.oggstr" ]
+dest_files=["res://.godot/imported/step.ogg-648e184d6ad4246d1b122d644ed39a8c.oggvorbisstr"]
 
 [params]
 
 loop=true
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,15 +1,19 @@
 [remap]
 
-importer="ogg_vorbis"
-type="AudioStreamOGGVorbis"
-path="res://.import/morning.ogg-ad741958979e5ac8b0bcb6b4286be340.oggstr"
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bt412oys58rp5"
+path="res://.godot/imported/morning.ogg-ad741958979e5ac8b0bcb6b4286be340.oggvorbisstr"
 
 [deps]
 
 source_file="res://assets/sound_effect/morning.ogg"
-dest_files=[ "res://.import/morning.ogg-ad741958979e5ac8b0bcb6b4286be340.oggstr" ]
+dest_files=["res://.godot/imported/morning.ogg-ad741958979e5ac8b0bcb6b4286be340.oggvorbisstr"]
 
 [params]
 
 loop=true
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

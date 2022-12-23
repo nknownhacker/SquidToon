@@ -1,15 +1,19 @@
 [remap]
 
-importer="ogg_vorbis"
-type="AudioStreamOGGVorbis"
-path="res://.import/aura.ogg-7e0ac7b5825dc85aaf632d996a1d1065.oggstr"
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dw5lj4ivfd5kp"
+path="res://.godot/imported/aura.ogg-7e0ac7b5825dc85aaf632d996a1d1065.oggvorbisstr"
 
 [deps]
 
 source_file="res://assets/sound_effect/aura.ogg"
-dest_files=[ "res://.import/aura.ogg-7e0ac7b5825dc85aaf632d996a1d1065.oggstr" ]
+dest_files=["res://.godot/imported/aura.ogg-7e0ac7b5825dc85aaf632d996a1d1065.oggvorbisstr"]
 
 [params]
 
 loop=true
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,15 +1,19 @@
 [remap]
 
-importer="ogg_vorbis"
-type="AudioStreamOGGVorbis"
-path="res://.import/dassyutu.ogg-c2be5efbc5218e15a6592a5a11f3a4a1.oggstr"
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dtbs0ac7lnjry"
+path="res://.godot/imported/dassyutu.ogg-c2be5efbc5218e15a6592a5a11f3a4a1.oggvorbisstr"
 
 [deps]
 
 source_file="res://assets/sound_effect/dassyutu.ogg"
-dest_files=[ "res://.import/dassyutu.ogg-c2be5efbc5218e15a6592a5a11f3a4a1.oggstr" ]
+dest_files=["res://.godot/imported/dassyutu.ogg-c2be5efbc5218e15a6592a5a11f3a4a1.oggvorbisstr"]
 
 [params]
 
 loop=true
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

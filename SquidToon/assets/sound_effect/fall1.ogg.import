@@ -1,15 +1,19 @@
 [remap]
 
-importer="ogg_vorbis"
-type="AudioStreamOGGVorbis"
-path="res://.import/fall1.ogg-26fa2cd2b170c242902ea69732a3adcf.oggstr"
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cay7g1fuyl4q4"
+path="res://.godot/imported/fall1.ogg-26fa2cd2b170c242902ea69732a3adcf.oggvorbisstr"
 
 [deps]
 
 source_file="res://assets/sound_effect/fall1.ogg"
-dest_files=[ "res://.import/fall1.ogg-26fa2cd2b170c242902ea69732a3adcf.oggstr" ]
+dest_files=["res://.godot/imported/fall1.ogg-26fa2cd2b170c242902ea69732a3adcf.oggvorbisstr"]
 
 [params]
 
 loop=true
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

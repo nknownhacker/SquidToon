@@ -1,15 +1,19 @@
 [remap]
 
-importer="ogg_vorbis"
-type="AudioStreamOGGVorbis"
-path="res://.import/door2.ogg-a5a83cb3f98a98adb039a3043d1e8cfe.oggstr"
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://yw6vbbd3rilk"
+path="res://.godot/imported/door2.ogg-a5a83cb3f98a98adb039a3043d1e8cfe.oggvorbisstr"
 
 [deps]
 
 source_file="res://assets/sound_effect/door2.ogg"
-dest_files=[ "res://.import/door2.ogg-a5a83cb3f98a98adb039a3043d1e8cfe.oggstr" ]
+dest_files=["res://.godot/imported/door2.ogg-a5a83cb3f98a98adb039a3043d1e8cfe.oggvorbisstr"]
 
 [params]
 
 loop=true
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

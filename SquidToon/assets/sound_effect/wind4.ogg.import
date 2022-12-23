@@ -1,15 +1,19 @@
 [remap]
 
-importer="ogg_vorbis"
-type="AudioStreamOGGVorbis"
-path="res://.import/wind4.ogg-d46b05b112d7acc8092527a67109e3a6.oggstr"
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dogee6ald3gxq"
+path="res://.godot/imported/wind4.ogg-d46b05b112d7acc8092527a67109e3a6.oggvorbisstr"
 
 [deps]
 
 source_file="res://assets/sound_effect/wind4.ogg"
-dest_files=[ "res://.import/wind4.ogg-d46b05b112d7acc8092527a67109e3a6.oggstr" ]
+dest_files=["res://.godot/imported/wind4.ogg-d46b05b112d7acc8092527a67109e3a6.oggvorbisstr"]
 
 [params]
 
 loop=true
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

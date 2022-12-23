@@ -1,0 +1,10 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://da8xyd38jyf3d"]
+
+[ext_resource type="Shader" uid="uid://b1njtyvi0pjin" path="res://textures/VSHADER.tres" id="2"]
+[ext_resource type="Texture2D" uid="uid://da82swib8whsm" path="res://assets/model_garbage/icon_png.png" id="2_naqei"]
+
+[resource]
+resource_local_to_scene = true
+render_priority = 0
+shader = ExtResource("2")
+shader_parameter/LevelOriginal = ExtResource("2_naqei")

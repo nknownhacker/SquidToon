@@ -1,21 +1,21 @@
-extends Spatial
+extends Node3D
 
 class_name control_camera
 
-export(float) var min_pitch: float = -90
-export(float) var max_pitch: float = 75
-export(float) var rotate_speed: float = 10
-export(float) var sensitivity: float = .1
-export(float) var zoom_speed: float = 10
-export(float) var zoom_step: float = .5
-export(float) var min_distance: float = 3
-export(float) var max_distance: float = 8
-export(float) var aim_distance: float = 4
+@export var min_pitch: float = -90
+@export var max_pitch: float = 75
+@export var rotate_speed: float = 10
+@export var sensitivity: float = .1
+@export var zoom_speed: float = 10
+@export var zoom_step: float = .5
+@export var min_distance: float = 3
+@export var max_distance: float = 6
+@export var aim_distance: float = 4
 
-onready var gimba_h = $GimbaH
-onready var gimba_v = $GimbaH/GimbaV
-onready var clipped_camera = $GimbaH/GimbaV/ClippedCamera
-onready var player = get_parent().get_parent()
+@onready var gimba_h = $GimbaH
+@onready var gimba_v = $GimbaH/GimbaV
+@onready var clipped_camera = $GimbaH/GimbaV/Camera3D
+@onready var player = get_parent().get_parent()
 
 var _rot_h: float = 0
 var _rot_v: float = 0
@@ -27,7 +27,7 @@ var bool_check_t: int = 0
 var is_on_floor_really : bool = false
 
 func _ready():
-	yield(get_parent(), "ready")
+	await get_parent().ready
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
 
 func _input(event):
@@ -50,7 +50,7 @@ func _physics_process(delta):
 	# When player aims and doesn't move the mouse, this value wouldn't change, so I set it in physics process instead of input
 	# so it would change when the player aims
 	if is_capturing:
-		# Checking if holding right mouse and is on the floor
+		# Checking if holding right mouse and is checked the floor
 		if Input.is_action_pressed("aim") and is_on_floor_really:
 			_distance = aim_distance
 			_distancex = 1
@@ -65,8 +65,8 @@ func _physics_process(delta):
 		bool_check_t = 0
 		is_on_floor_really = false
 	
-	gimba_h.rotation_degrees.y = lerp(gimba_h.rotation_degrees.y, _rot_h, rotate_speed * delta)
-	gimba_v.rotation_degrees.x = lerp(gimba_v.rotation_degrees.x, _rot_v, rotate_speed * delta)
+	gimba_h.rotation.y = lerp(gimba_h.rotation.y, deg_to_rad(_rot_h), rotate_speed * delta)
+	gimba_v.rotation.x = lerp(gimba_v.rotation.x, deg_to_rad(_rot_v), rotate_speed * delta)
 	
 	clipped_camera.transform.origin.z = lerp(clipped_camera.transform.origin.z, _distance, zoom_speed * delta)
 	clipped_camera.transform.origin.x = lerp(clipped_camera.transform.origin.x, _distancex, zoom_speed * delta)

@@ -1,15 +1,19 @@
 [remap]
 
-importer="ogg_vorbis"
-type="AudioStreamOGGVorbis"
-path="res://.import/ikazuti.ogg-5ac90092051f98bb3d1c434473e87ee5.oggstr"
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cwosh4imlq1fy"
+path="res://.godot/imported/ikazuti.ogg-5ac90092051f98bb3d1c434473e87ee5.oggvorbisstr"
 
 [deps]
 
 source_file="res://assets/sound_effect/ikazuti.ogg"
-dest_files=[ "res://.import/ikazuti.ogg-5ac90092051f98bb3d1c434473e87ee5.oggstr" ]
+dest_files=["res://.godot/imported/ikazuti.ogg-5ac90092051f98bb3d1c434473e87ee5.oggvorbisstr"]
 
 [params]
 
 loop=true
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

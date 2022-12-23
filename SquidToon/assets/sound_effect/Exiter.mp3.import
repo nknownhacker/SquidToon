@@ -2,14 +2,18 @@
 
 importer="mp3"
 type="AudioStreamMP3"
-path="res://.import/Exiter.mp3-6f1b8a16688e62596297c09afae14c70.mp3str"
+uid="uid://btlqfa2ko782v"
+path="res://.godot/imported/Exiter.mp3-6f1b8a16688e62596297c09afae14c70.mp3str"
 
 [deps]
 
 source_file="res://assets/sound_effect/Exiter.mp3"
-dest_files=[ "res://.import/Exiter.mp3-6f1b8a16688e62596297c09afae14c70.mp3str" ]
+dest_files=["res://.godot/imported/Exiter.mp3-6f1b8a16688e62596297c09afae14c70.mp3str"]
 
 [params]
 
 loop=true
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

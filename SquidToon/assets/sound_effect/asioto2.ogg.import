@@ -1,15 +1,19 @@
 [remap]
 
-importer="ogg_vorbis"
-type="AudioStreamOGGVorbis"
-path="res://.import/asioto2.ogg-1a45fc5b7b838b6acb76af889c4c87d3.oggstr"
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://hax1vt7jnwsb"
+path="res://.godot/imported/asioto2.ogg-1a45fc5b7b838b6acb76af889c4c87d3.oggvorbisstr"
 
 [deps]
 
 source_file="res://assets/sound_effect/asioto2.ogg"
-dest_files=[ "res://.import/asioto2.ogg-1a45fc5b7b838b6acb76af889c4c87d3.oggstr" ]
+dest_files=["res://.godot/imported/asioto2.ogg-1a45fc5b7b838b6acb76af889c4c87d3.oggvorbisstr"]
 
 [params]
 
 loop=true
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,15 +1,19 @@
 [remap]
 
-importer="ogg_vorbis"
-type="AudioStreamOGGVorbis"
-path="res://.import/karaburi.ogg-322470203ce806c66c82e8756339295a.oggstr"
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://gsh8y4n0dj5i"
+path="res://.godot/imported/karaburi.ogg-322470203ce806c66c82e8756339295a.oggvorbisstr"
 
 [deps]
 
 source_file="res://assets/sound_effect/karaburi.ogg"
-dest_files=[ "res://.import/karaburi.ogg-322470203ce806c66c82e8756339295a.oggstr" ]
+dest_files=["res://.godot/imported/karaburi.ogg-322470203ce806c66c82e8756339295a.oggvorbisstr"]
 
 [params]
 
 loop=true
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

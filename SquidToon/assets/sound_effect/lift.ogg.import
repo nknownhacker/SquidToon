@@ -1,15 +1,19 @@
 [remap]
 
-importer="ogg_vorbis"
-type="AudioStreamOGGVorbis"
-path="res://.import/lift.ogg-5b510c13efedff894d215617d6f5f5ce.oggstr"
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bmwl6svocx061"
+path="res://.godot/imported/lift.ogg-5b510c13efedff894d215617d6f5f5ce.oggvorbisstr"
 
 [deps]
 
 source_file="res://assets/sound_effect/lift.ogg"
-dest_files=[ "res://.import/lift.ogg-5b510c13efedff894d215617d6f5f5ce.oggstr" ]
+dest_files=["res://.godot/imported/lift.ogg-5b510c13efedff894d215617d6f5f5ce.oggvorbisstr"]
 
 [params]
 
 loop=true
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

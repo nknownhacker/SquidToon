@@ -1,15 +1,19 @@
 [remap]
 
-importer="ogg_vorbis"
-type="AudioStreamOGGVorbis"
-path="res://.import/shot3.ogg-5252a4c3c446477636efadeaf40499f8.oggstr"
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://buepbvnd6di4r"
+path="res://.godot/imported/shot3.ogg-5252a4c3c446477636efadeaf40499f8.oggvorbisstr"
 
 [deps]
 
 source_file="res://assets/sound_effect/shot3.ogg"
-dest_files=[ "res://.import/shot3.ogg-5252a4c3c446477636efadeaf40499f8.oggstr" ]
+dest_files=["res://.godot/imported/shot3.ogg-5252a4c3c446477636efadeaf40499f8.oggvorbisstr"]
 
 [params]
 
 loop=true
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

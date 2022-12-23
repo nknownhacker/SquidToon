@@ -1,15 +1,19 @@
 [remap]
 
-importer="ogg_vorbis"
-type="AudioStreamOGGVorbis"
-path="res://.import/knife2.ogg-74852d760fc5ecf980648143e8fa3732.oggstr"
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://d2osswvq6xcqm"
+path="res://.godot/imported/knife2.ogg-74852d760fc5ecf980648143e8fa3732.oggvorbisstr"
 
 [deps]
 
 source_file="res://assets/sound_effect/knife2.ogg"
-dest_files=[ "res://.import/knife2.ogg-74852d760fc5ecf980648143e8fa3732.oggstr" ]
+dest_files=["res://.godot/imported/knife2.ogg-74852d760fc5ecf980648143e8fa3732.oggvorbisstr"]
 
 [params]
 
 loop=true
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
